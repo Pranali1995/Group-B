@@ -1,0 +1,133 @@
+/* main.css */
+body {
+	font-family:arial;
+	}
+
+div.wrapper{
+	max-width: 1220px;
+	margin: 0 auto;
+	
+}
+
+header {
+	background-image:url(images1.jpg);
+	background-repeat: repeat-x;
+	position: bottom;
+	height: 158px;
+	width: 100%;
+
+	
+	}
+	
+header h1{
+	font-family: 'Love Ya Like A Sister', georgia;
+	letter-spacing: 4px;
+	font-size : 72px;
+	padding-top: .5em;
+	padding-left: .5em;
+	
+	}
+header h2{
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	letter-spacing: 4px;
+	font-size : 45px;
+	padding-top: .5em;
+	padding-left: .5em;
+	}	
+nav ul{
+	margin:0;
+	padding:0;
+	}
+
+nav ul li {
+	list-style: none;
+	float:left;
+	font-size:93%;
+}
+
+nav ul li a {
+	display: block;
+	font-weight: bold;
+	padding: .625em 3em; /* 10px 15px */
+	text-decoration: none;
+	color: #000;
+	border-right: 1px solid #bababa;
+}
+
+.member_frm {
+	border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.row {
+	clear: both;
+}
+
+.col {
+	float: left;
+	width:60%;
+}
+
+label {
+	
+	width: auto;
+	float: left;
+	text-align: right;
+	margin-right: 0.5em;
+}
+.thirty-year {
+	margin-top:auto;
+}
+.history-image{
+margin-top:auto;
+}
+
+
+
+#col01{
+	float:left;
+	width:50%;
+	margin:1em 1em 1em 2em;
+	}
+
+#col001 {
+	float: left;
+	width: 40%;
+	margin-top: 6em;
+	margin-left:4em;
+}
+
+#col02 {
+	float: left;
+	width: auto;
+	margin-left:4em;
+	text-align:justify;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+#col03 {
+	float: left;
+	width: 30%;
+	margin-left:4em;
+}
+#col04 {
+	float: left;
+	width: 60%;
+	text-align:justify;
+}
+
+footer {
+		clear: both;
+}
+
+footer h3 {
+	font-family:-webkit-pictograph;
+	background-color:pink;
+	padding: .5em 0 .5em .5em;
+	background-repeat: repeat-x;
+	position: bottom;
+	text-align: center;
+	
+}
+
+
+
