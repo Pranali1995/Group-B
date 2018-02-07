@@ -1,6 +1,9 @@
 /* main.css */
 body {
 	font-family:arial;
+	background-image: url(a1.jpg);
+	
+
 	}
 
 div.wrapper{
@@ -10,10 +13,10 @@ div.wrapper{
 }
 
 header {
-	background-image:url(images1.jpg);
-	background-repeat: repeat-x;
+	background-image:url(fbanner.png);
+	background-repeat: repeat;
 	position: bottom;
-	height: 158px;
+	height: 125px;
 	width: 100%;
 
 	
@@ -52,20 +55,57 @@ nav ul li a {
 	text-decoration: none;
 	color: #000;
 	border-right: 1px solid #bababa;
+    background-color: gray;
+	
+}
+li a:hover {
+    background-color: violet;
+}
+img { max-width: 100% }
+
+#col1{
+	float:left;
+	width:25%;
+	margin:1em 1em 1em 2em;
 }
 
-.member_frm {
-	border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-.row {
-	clear: both;
-}
-
-.col {
+#col2 {
 	float: left;
-	width:60%;
+	width: 25%;
+	margin: 1em 0 0 0;
+}
+
+#col3{
+	float: left;
+	width: 30%;
+	margin: 1em 2em 0 0;
+	margin-left:10%;
+	}
+
+
+#col8{
+	text-decoration:none;
+
+	float: right; 
+	width: 30%;
+	margin-top: 4em;
+	margin-left: auto;
+	margin-bottom: 8em;	
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
 }
 
 label {
@@ -75,45 +115,59 @@ label {
 	text-align: right;
 	margin-right: 0.5em;
 }
-.thirty-year {
-	margin-top:auto;
-}
-.history-image{
-margin-top:auto;
+.bullets{
+	background:#E5E4E4;
 }
 
+.bullet2 {
+	float: left;
+	width:90%;
+	margin-top:em;
+}
 
+.bullet3{
+	float: left;
+	width:90%;
+	margin-top:em;
+}
 
-#col01{
+#b1{
 	float:left;
-	width:50%;
+	width:30%;
 	margin:1em 1em 1em 2em;
 	}
 
-#col001 {
-	float: left;
-	width: 40%;
-	margin-top: 6em;
-	margin-left:4em;
-}
-
-#col02 {
-	float: left;
-	width: auto;
-	margin-left:4em;
-	text-align:justify;
-	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
-}
-#col03 {
-	float: left;
-	width: 30%;
-	margin-left:4em;
-}
-#col04 {
+#b2 {
 	float: left;
 	width: 60%;
-	text-align:justify;
+	
 }
+
+#b3{
+	float:left;
+	width:30%;
+	margin:1em 1em 1em 2em;
+	}
+
+#b4 {
+	float: left;
+	width: 60%;
+	
+}
+
+#b5{
+	float:left;
+	width:30%;
+	margin:1em 1em 1em 2em;
+	}
+
+#b6 {
+	float: left;
+	width: 60%;
+	
+}
+
+
 
 footer {
 		clear: both;
@@ -128,6 +182,16 @@ footer h3 {
 	text-align: center;
 	
 }
-
+.fa {
+		display: block;
+	font-weight: bold;
+	padding: .625em 3em; /* 10px 15px */
+	text-decoration: none;
+	color: #000;
+	border-right: 1px solid #bababa;
+    background-color:#1B6DDC;
+	
+ 
+}
 
 
