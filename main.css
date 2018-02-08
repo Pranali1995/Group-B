@@ -31,11 +31,14 @@ header h1{
 	
 	}
 header h2{
-	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
 	letter-spacing: 4px;
 	font-size : 45px;
 	padding-top: .5em;
 	padding-left: .5em;
+	font-style:normal ;
+	
+	
 	}	
 nav ul{
 	margin:0;
@@ -107,6 +110,19 @@ td, th {
 tr:nth-child(even) {
     background-color: #dddddd;
 }
+.member_frm {
+	border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+.row {
+	clear: both;
+}
+
+.col {
+	float: left;
+	width:60%;
+}
 
 label {
 	
@@ -115,61 +131,168 @@ label {
 	text-align: right;
 	margin-right: 0.5em;
 }
-.bullets{
+.thirty-year {
+	margin-top:auto;
+}
+.history-image{
+margin-top:auto;
+}
+
+
+
+#col01{
+	float:left;
+	width:50%;
+	margin:1em 1em 1em 2em;
+	}
+
+#col001 {
+	float: left;
+	width: 40%;
+	margin-top: 6em;
+	margin-left:4em;
+}
+
+#col02 {
+	float: left;
+	width: auto;
+	margin-left:4em;
+	text-align:justify;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+}
+#col03 {
+	float: left;
+	width: 30%;
+	margin-left:4em;
+}
+#col04 {
+	float: left;
+	width: 60%;
+	text-align:justify;
+}
+
+#col05{
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	font-size:18px;
+	float:left;
+	width:auto;
+	margin:1em 1em 1em 2em;
+	background-color: #f2f2f2;
+	padding-left: 10px;
+	}
+
+#col06 {
+	float: left;
+	width: 65%;
+	background-color: #f2f2f2;
+	
+}
+#col07 {
+	float:right;
+	width: 25%;
+	
+	margin-left:4em;
+}
+#col08{
+	background-color: #f2f2f2}
+	
+.events{
 	background:#E5E4E4;
 }
 
-.bullet2 {
+.event2 {
+	background:#E5E4E4;
 	float: left;
 	width:90%;
 	margin-top:em;
 }
 
-.bullet3{
+.event3{
+	background:#E5E4E4;
 	float: left;
 	width:90%;
 	margin-top:em;
 }
-
-#b1{
+.event4{
+	background:#E5E4E4;
+	float: left;
+	width:90%;
+	margin-top:em;
+}
+.event5{
+	background:#E5E4E4;
+	float: left;
+	width:90%;
+	margin-top:em;
+}
+.tickets{
+	background:#E5E4E4;
+	text-align:center;
+	float:left;
+	width:90%;
+	margin-top:em;
+	margin-bottom:3em;
+}
+#e1{
 	float:left;
 	width:30%;
 	margin:1em 1em 1em 2em;
 	}
 
-#b2 {
+#e2 {
 	float: left;
 	width: 60%;
 	
 }
 
-#b3{
+#e3{
 	float:left;
 	width:30%;
 	margin:1em 1em 1em 2em;
 	}
 
-#b4 {
+#e4 {
 	float: left;
 	width: 60%;
 	
 }
 
-#b5{
+#e5{
 	float:left;
 	width:30%;
 	margin:1em 1em 1em 2em;
 	}
 
-#b6 {
+#e6 {
 	float: left;
 	width: 60%;
 	
 }
 
+#e7{
+	float:left;
+	width:30%;
+	margin:1em 1em 1em 2em;
+	}
 
+#e8 {
+	float: left;
+	width: 60%;
+	
+}
+#e9{
+	float:left;
+	width:30%;
+	margin:1em 1em 1em 2em;
+	}
 
+#e10 {
+	float: left;
+	width: 60%;
+	
+}
 footer {
+	padding-left:
 		clear: both;
 }
 
